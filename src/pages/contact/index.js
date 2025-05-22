@@ -1,6 +1,6 @@
 import "./style.contact.css"
 
-const contact = () => {
+const Contact = () => {
     return(
         <div>
             contact
@@ -8,4 +8,4 @@ const contact = () => {
     );
 }
 
-export default contact;
+export default Contact;

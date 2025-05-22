@@ -1,6 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/header";
 import Bottom from "./components/bottom";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Gallery from "./pages/gallery";
+import Contact from "./pages/contact";
+import Donate from "./pages/donate";
 
 function App() {
   return (
@@ -8,11 +13,11 @@ function App() {
       <Header />
       <Routes>
         <Route>
-          <Route path="/" index element={<h1>Home</h1>} />
-          <Route path="/sobre-nos" element={<h1>Sobre Nós</h1>} />
-          <Route path="/galeria" element={<h1>Galeria</h1>} />
-          <Route path="/contato" element={<h1>Contato</h1>} />
-          <Route path="/doar" element={<h1>Doar</h1>} />
+          <Route path="/" index element={<Home/>} />
+          <Route path="/sobre-nos" element={<About/>} />
+          <Route path="/galeria" element={<Gallery/>} />
+          <Route path="/contato" element={<Contact/>} />
+          <Route path="/doar" element={<Donate/>} />
         </Route>
       </Routes>
       <Bottom />

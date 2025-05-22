@@ -1,8 +1,7 @@
 .headerContainer {
     width: 100%;
     height: 110px;
-    background-color: #004022;
-    color: white;
+    background-color: rgb(255, 252, 237);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -19,9 +18,11 @@ a {
 }
 
 .headerLink {
-    color: white;
+    color: #7BB0E1;
     font-family: 'Montserrat', sans-serif;
     padding-left: 25px;
+
+    font-weight: bold;
 }
 
 
@@ -30,8 +31,22 @@ html {
     width: 100%;
 }
 
-.containerHeaderLink {}
+.containerHeaderLink {
+    display: flex;
+}
 
 .containerPerson {
     display: flex;
+}
+
+.buttonDonate {
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: -10px;
+    margin-left: 20px;
+
+    border-radius: 10px;
+    background-color: #F2C400;
 }

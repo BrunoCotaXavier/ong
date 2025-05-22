@@ -1,6 +1,6 @@
 import "./style.donate.css"
 
-const donate = () => {
+const Donate = () => {
     return(
         <div>
             donate
@@ -8,4 +8,4 @@ const donate = () => {
     );
 }
 
-export default donate;
+export default Donate;

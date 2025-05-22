@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: start;
 
-    background-color: #5A2918;
+    background-color: #7BB0E1;
 
     padding-top: 30px;
     padding-bottom: 60px;
@@ -20,7 +20,7 @@
 }
 
 .tittleBottom {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .containerRotate {
@@ -42,4 +42,8 @@
 
     font-weight: bold;
     font-size: 12px;
+}
+
+.textBottom {
+    font-size: 20px;
 }

@@ -1,6 +1,6 @@
 import "./style.about.css"
 
-const about = () => {
+const About = () => {
     return(
         <div>
             about
@@ -8,4 +8,4 @@ const about = () => {
     );
 }
 
-export default about;
+export default About;

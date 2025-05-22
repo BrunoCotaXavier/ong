@@ -1,0 +1,77 @@
+.home-banner {
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    background-image: url('../../assets/home.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-text {
+    color: white;
+    text-align: start;
+    padding: 2rem;
+    max-width: 900px;
+    z-index: 1;
+}
+
+.overlay-text-h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.overlay-text-p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.home-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.buttonDonateHome {
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width: min-content;
+
+    margin-top: 50px;
+    margin-left: 0px;
+
+    border-radius: 10px;
+    background-color: #F2C400;
+}
+
+.containerSectionHome {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cardSectionHome {
+    width: 70%;
+}
+
+.cardTextHome {
+    display: flex;
+}
+
+.descriptionHome {
+    line-height: 1.8;
+
+    font-weight: lighter;
+}

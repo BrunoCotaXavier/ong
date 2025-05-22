@@ -1,51 +1,50 @@
 import "./style.bottom.css"
 
 import { Link } from "react-router-dom";
+import logo from "../../assets/logoOng.png"
 
 const bottom = () => {
     return (
         <div>
             <div className="containerBottom">
                 <div className="cardBottom">
-                    <h6 className="tittleBottom">LOJA</h6>
-                    <br />
-                    <h6>Home</h6>
-                    <h6>Produtos</h6>
-                    <h6>Orçamento</h6>
-                    <h6>Loja Online</h6>
-                </div>
-                <div className="cardBottom">
                     <h6 className="tittleBottom">SOBRE</h6>
                     <br />
-                    <h6>Sobre Nós</h6>
-                    <h6>Como Funciona</h6>
-                    <h6>Técnicas e Personalização</h6>
-                    <h6>Práticas Sustentáveis</h6>
-                    <h6>Perguntas Frequentes</h6>
+                    <div className="textBottom">
+                        <h6>Home</h6>
+                        <h6>Sobre Nós</h6>
+                        <h6>Galeria</h6>
+                        <h6>Contato</h6>
+                        <h6>Doar</h6>
+                    </div>
                 </div>
                 <div className="cardBottom">
                     <h6 className="tittleBottom">LOCAL</h6>
                     <br />
-                    <h6>R. Cantidiano Guimarães, 132 </h6>
-                    <div>
-                        <span>lboltda</span>
+                    <div className="textBottom">
+                        <h6>Rua Joaquim Xavier de Lira, 60.</h6>
+                        <div>
+                            <br />
+                            <span>@andrade_instituto</span>
+                        </div>
                     </div>
                 </div>
                 <div className="cardBottom">
                     <div style={{ paddingLeft: 20 }}>
                         <h6 className="tittleBottom">CONTATO</h6>
                         <br />
-                        <h6>Fale Conosco</h6>
-                        <h6>+55 (11) 949543274</h6>
-                        <h6>contato@malhariatropical.com.br</h6>
+                        <div className="textBottom">
+                            <h6>Fale Conosco</h6>
+                            <h6>+55 (11) 945039713</h6>
+                            <h6>instituto.andrade01@gmail.com</h6>
+                        </div>
                     </div>
-                    <img src="https://static.wixstatic.com/media/c97d9f_a9b51f094e81449282aad9347f3153a1~mv2.png/v1/fill/w_144,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c97d9f_a9b51f094e81449282aad9347f3153a1~mv2.png" />
-                    <img src="https://static.wixstatic.com/media/c97d9f_23da9aefc1c0412cb500f9890da88635~mv2.png/v1/fill/w_126,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bci_logo_branco.png" />
                 </div>
             </div>
             <div className="containerRotate">
                 <div className="cardRotate">
-                    <span>© 2025 - ABDON AMATTI & CIA LTDA - CNPJ 60.854.429/0001-78</span>
+                    <span>© 2025 - INSTITUTO ANDRADE - CNPJ 04.434.036/0001-34</span>
+                    <img width={100} src={logo} />
                     <Link style={{ color: "black" }} to="">Política de Privacidade - Termos e Condições de Venda Online</Link>
                 </div>
             </div>
