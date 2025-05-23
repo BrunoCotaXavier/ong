@@ -8,25 +8,25 @@ const projects = [
   {
     title: "Cultura e Arte na Comunidade",
     description:
-      "Atividades de música, dança, teatro e artes visuais que incentivam o talento e a expressão artística de crianças, jovens e adultos.",
+      "Promovemos atividades artísticas que fortalecem a identidade, estimulam a criatividade e aproximam a comunidade da cultura de forma acessível e transformadora. Através de oficinas de pintura, contação de histórias, dança, artes visuais, criamos espaços de expressão, convivência e pertencimento.",
     image: projeto1,
+  },
+  {
+    title: "Doações",
+    description:
+      "Acreditamos na força da partilha para transformar realidades. Por meio de ações solidárias, promovemos o cuidado com as famílias da comunidade, levando acolhimento e apoio a quem mais precisa. Cada contribuição ajuda a construir um caminho mais justo e humano.",
+    image: projeto2,
   },
   {
     title: "Saúde e Bem-Estar",
     description:
-      "Projetos que oferecem apoio psicológico e emocional, além de cuidados de saúde básicos, com foco na qualidade de vida de nossos atendidos.",
-    image: projeto2,
-  },
-  {
-    title: "Educação para Todos",
-    description:
-      "Aulas de reforço escolar, cursos profissionalizantes e orientação pedagógica para crianças e jovens, proporcionando oportunidades para um futuro melhor.",
+      "Promovemos atividades físicas que contribuem para o cuidado com o corpo e também com a saúde mental. Criamos espaços de convivência e movimento, onde a prática regular ajuda a fortalecer a autoestima, reduzir o estresse e melhorar a qualidade de vida. Cuidar do bem-estar é também uma forma de promover dignidade e pertencimento na comunidade.",
     image: projeto3,
   },
   {
-    title: "Empoderamento Feminino",
+    title: "Lazer para Todos",
     description:
-      "Programas voltados para a capacitação profissional e psicológica de mulheres, ajudando-as a conquistar autonomia e a se destacar em diferentes áreas.",
+      "Oferecemos atividades de lazer que promovem a integração, a diversão e o bem-estar da comunidade. Criamos espaços e eventos inclusivos onde todas as pessoas podem participar, se expressar livremente e fortalecer os laços de convivência. Acreditamos que momentos de lazer são essenciais para o equilíbrio, a alegria que transformam vidas.",
     image: projeto4,
   },
 ];
@@ -34,8 +34,10 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <section className="projects-section">
-      <div className="cardProjects">
-        <h1 className="projects-section-h1">Nossos Projetos</h1>
+      <div className="containerCardProjects">
+        <div className="cardProjects">
+          <h1 className="projects-section-h1">Nossos Projetos</h1>
+        </div>
       </div>
       <div className="projects-grid">
         {projects.map((project, index) => (

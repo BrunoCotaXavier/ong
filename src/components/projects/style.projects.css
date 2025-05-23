@@ -1,11 +1,13 @@
 .projects-section {
-    text-align: center;
     padding: 3rem 2rem;
   }
   
   .projects-section-h1 {
     font-size: 30px;
     margin-bottom: 50px;
+
+    font-family: "Poetsen One", sans-serif;
+    color: #7BB0E1;
   }
   
   .projects-grid {
@@ -15,7 +17,7 @@
   }
   
   .project-card {
-    background-color: #F2C400;
+    background-color: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -40,23 +42,26 @@
   .project-info-h3 {
     margin: 0 0 0.5rem;
     font-size: 1.2rem;
-    color: #333;
+    font-family: "Poetsen One", sans-serif;
+    color: #7BB0E1;
   }
   
   .project-info-p {
     font-size: 0.95rem;
     color: #444;
+    font-family: sans-serif;
     line-height: 1.4;
   }
 
   .cardProjects {
-    width: 60%;
+    width: 73%;
+  }
+  
+
+  .containerCardProjects {
+    width: 100%;
 
     display: flex;
     justify-content: center;
-    align-items: start;
-    flex-direction: column;
-
-    margin-left: 180px;
+    align-items: center;
   }
-  

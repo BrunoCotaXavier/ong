@@ -12,19 +12,20 @@ const Home = () => {
                         Acreditamos que esses projetos são ferramentas fundamentais para a construção de uma sociedade mais inclusiva e com mais oportunidades para todos.
                     </p>
                     <div className="buttonDonateHome">
-                        <Link className="headerLink" style={{ color: "white" }} to="/doar">Doar</Link>
+                        <Link className="headerLink" style={{ color: "white" }} to="/projetos">Projetos</Link>
                     </div>
                 </div>
             </div>
             <div className="containerSectionHome">
                 <div className="cardSectionHome">
-                    <h1>Descubra o que nos move</h1>
+                    <h1 className="titleCardSectionHome">Descubra o que nos move</h1>
                     <div className="cardTextHome">
                         <p className="descriptionHome" style={{ paddingTop: 40, paddingRight: 40 }}>
-                            No Instituto Comunitário Divas em Ação, realizamos uma série de projetos que têm como objetivo transformar realidades e oferecer novas perspectivas para aqueles que mais precisam. Nossos projetos culturais e sociais são pensados para engajar, educar e empoderar os participantes, estimulando a criatividade, o aprendizado e o trabalho em equipe.
+                            No Instituto Andrade, desenvolvemos projetos sociais e culturais com o propósito de acolher, fortalecer e transformar vidas. Atuamos de forma ativa junto à comunidade, promovendo ações que incentivam a expressão artística, o cuidado com a saúde mental, a valorização das mulheres, o apoio a crianças e adolescentes, fortalecimento de vínculos familiares e comunitários. Nossas iniciativas são pensadas com afeto e responsabilidade, sempre buscando criar oportunidades reais de crescimento, bem-estar e inclusão. 
                         </p>
                         <p className="descriptionHome" style={{ paddingTop: 40 }}>
-                            Nossos projetos são desenhados para enfrentar os desafios sociais de forma criativa e eficaz, sempre com o objetivo de empoderar indivíduos e comunidades. Através de parcerias estratégicas e do engajamento comunitário, buscamos transformar realidades e inspirar mudanças positivas. Cada iniciativa é uma oportunidade de aprendizado e crescimento, tanto para os beneficiários quanto para os voluntários e colaboradores envolvidos.
+                            Oferecemos oficinas de artes, apresentações de dança, rodas de conversa, acompanhamento psicológico, atividades de apoio e acolhimento — tudo isso em um ambiente seguro, participativo e transformador.
+                            Acreditamos na força do coletivo, nas parcerias e no poder do cuidado para construir um futuro mais justo e sensível para todos. Cada projeto que realizamos é uma ponte para o fortalecimento da nossa comunidade.
                         </p>
                     </div>
                 </div>
